@@ -48,10 +48,10 @@
               <div id="myNav" class="overlay">
                 <div class="overlay-content">
                   <a href="index.html">HOME</a>
-                  <a href="about.html">ABOUT</a>
-                  <a href="house.html">HOUSE</a>
-                  <a href="price.html">PRICING</a>
-                  <a href="contact.html">CONTACT US</a>
+                  <a href="#about" onclick="openNav()">ABOUT</a>
+                  <a href="#house" onclick="openNav()">HOUSE</a>
+                  <a href="#price" onclick="openNav()">PRICING</a>
+                  <a href="#contact" onclick="openNav()">CONTACT US</a>
                 </div>
               </div>
             </div>
@@ -60,7 +60,7 @@
       </header>
       <!-- end header section -->
       <!-- slider section -->
-      <section class="slider_section">
+      <section class="slider_section" id="home">
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-4 offset-md-1">
@@ -84,7 +84,7 @@
 
     <!-- about section -->
 
-    <section class="about_section layout_padding-bottom">
+    <section class="about_section layout_padding-bottom" id="about">
       <div class="square-box">
         <img src="images/square.png" alt="" />
       </div>
@@ -101,9 +101,10 @@
                 <h2>About Our Apartment</h2>
               </div>
               <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour, or randomised words
+                We have been the forefront of Nepal's luxury standard for
+                appartments for more than 10 years. With our world class team
+                working together to continously improve our housing society we
+                expect continuing to be the best apartment.
               </p>
               <!-- <a href=""> Read More </a> -->
             </div>
@@ -116,14 +117,11 @@
 
     <!-- sale section -->
 
-    <section class="sale_section layout_padding-bottom">
+    <section class="sale_section layout_padding-bottom" id="house">
       <div class="container-fluid">
         <div class="heading_container">
-          <h2>House For Sale</h2>
-          <p>
-            There are many variations of passages of Lorem Ipsum available, but
-            the
-          </p>
+          <h2>Flats For Rent</h2>
+          <p>Some of our apartments for rent are</p>
         </div>
         <div class="sale_container">
           <div class="box">
@@ -133,8 +131,8 @@
             <div class="detail-box">
               <h6>apertments house</h6>
               <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but
+                These are some sample pictures of our apartment housing units.
+                They look more dazzling in reality.
               </p>
             </div>
           </div>
@@ -145,8 +143,7 @@
             <div class="detail-box">
               <h6>apertments house</h6>
               <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but
+                Only the best quality service for members of our housing society
               </p>
             </div>
           </div>
@@ -209,7 +206,7 @@
 
     <!-- price section -->
 
-    <section class="price_section layout_padding-bottom">
+    <section class="price_section layout_padding-bottom" id="price">
       <div class="container">
         <div class="heading_container">
           <h2>Our Pricing</h2>
@@ -482,7 +479,7 @@
 
     <!-- contact section -->
 
-    <section class="contact_section">
+    <section class="contact_section" id="contact">
       <div class="container">
         <div class="heading_container">
           <h2>Get In Touch</h2>
@@ -601,7 +598,7 @@
           </div>
           <div class="col-md-3">
             <div class="info_form">
-              <div class="social_box">
+              <!-- <div class="social_box">
                 <a href="">
                   <img src="images/fb.png" alt="" />
                 </a>
@@ -614,7 +611,7 @@
                 <a href="">
                   <img src="images/youtube.png" alt="" />
                 </a>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
