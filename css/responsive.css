@@ -1,4 +1,5 @@
-@media (max-width: 1120px) {}
+@media (max-width: 1120px) {
+}
 
 @media (max-width: 992px) {
   .User_option {
@@ -15,7 +16,6 @@
     -ms-flex-preferred-size: 98%;
     flex-basis: 98%;
     margin: 1%;
-
   }
 }
 
@@ -26,7 +26,6 @@
     height: auto;
   }
 
-
   .custom_menu-btn button span {
     background-color: #0f2480;
   }
@@ -34,7 +33,6 @@
   .sub_page .custom_menu-btn button span {
     background-color: #ffffff;
   }
-
 
   .slider_section {
     text-align: center;
@@ -65,7 +63,7 @@
     margin-top: 45px;
   }
 
-  .info_section .row>div {
+  .info_section .row > div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,7 +81,7 @@
   }
 
   .contact_section .form_container {
-    padding: 45px 0;
+    padding: 0px;
   }
 
   .client_section .client_container {
@@ -105,7 +103,6 @@
 
   .client_section .client_container .carousel-control-next {
     right: calc(50% - 50px);
-
   }
 
   .info_contact {
@@ -118,7 +115,7 @@
     margin-top: 5px;
   }
 
-  .info_section .info_contact>div {
+  .info_section .info_contact > div {
     align-items: flex-start;
   }
 
@@ -151,7 +148,6 @@
   .client_section .client_container .box {
     flex-direction: column;
     align-items: center;
-
   }
 
   .client_section .client_container .box .detail-box {
@@ -162,7 +158,6 @@
     height: 165px;
     left: 30%;
     top: 43px;
-
   }
 
   .footer_section p {
@@ -170,7 +165,8 @@
   }
 }
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+}
 
 @media (max-width: 420px) {
   .client_section .client_container div#carouselExampleControls::before {
@@ -178,7 +174,8 @@
   }
 }
 
-@media (max-width: 360px) {}
+@media (max-width: 360px) {
+}
 
 @media (min-width: 1200px) {
   .container {
